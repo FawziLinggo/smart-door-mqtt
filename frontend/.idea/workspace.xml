@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ddac117-a704-4a56-8b33-733dac765c3d" name="Changes" comment="">
+    <list default="true" id="6ddac117-a704-4a56-8b33-733dac765c3d" name="Changes" comment="Init Fronted">
       <change afterPath="$PROJECT_DIR$/../RESTful/.idea/RESTful.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RESTful/app/repositories/image_repositories.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RESTful/static/img/image_20230709112810.png" afterDir="false" />
@@ -17,45 +17,17 @@
       <change afterPath="$PROJECT_DIR$/../RESTful/static/img/image_20230709114539.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RESTful/static/img/image_20230709114923.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RESTful/static/img/image_20230709115020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mqtt-sub/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mqtt-sub/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mqtt-sub/.idea/mqtt-sub.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mqtt-sub/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mqtt-sub/app/config/opts_config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/app/constants/app_constatns.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/app/helpers/binary_image.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/app/helpers/save_to_sqlite.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/app/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/app/subsribers/subsriber.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mqtt-sub/test/test_pub.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RESTful/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../RESTful/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RESTful/app/repositories/user_repositories.go" beforeDir="false" afterPath="$PROJECT_DIR$/../RESTful/app/repositories/user_repositories.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RESTful/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../RESTful/cmd/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RESTful/mydb.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mqtt-sub/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../mqtt-sub/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +90,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init Fronted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init Fronted" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

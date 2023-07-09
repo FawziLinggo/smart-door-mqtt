@@ -63,6 +63,22 @@ func (ur *UserRepository) Migrate() error {
 
 	log.Println("Seed Table users done")
 
+	// Create table images
+	query = `
+		CREATE TABLE IF NOT EXISTS images (
+		    			id TEXT UNIQUE NOT NULL,
+		    			path TEXT NOT NULL,
+		    			create_at DATETIME DEFAULT CURRENT_TIMESTAMP
+		                                 )
+		    	`
+	_, err = ur.db.Exec(query)
+	if err != nil {
+		log.Println("Error create table images: ", err)
+		return err
+	}
+
+	log.Println("Create table images done")
+
 	return nil
 
 }

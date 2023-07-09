@@ -8,6 +8,7 @@ import (
 	"github.com/joho/godotenv"
 	"log"
 	"net/http"
+	"os"
 )
 
 func main() {
@@ -26,9 +27,21 @@ func main() {
 	}(db)
 
 	router.SetupRoutes()
+	// health check
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusOK)
+		write, err := w.Write([]byte("Im OK"))
+		if err != nil {
+			return
+		}
+		log.Println(write)
+	})
+	// static file
+	fs := http.FileServer(http.Dir("static/"))
+	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
-	log.Println("Server started on http://localhost:8080")
-	err = http.ListenAndServe(":8050", nil)
+	log.Println("Server started on http://localhost:" + os.Getenv(constants.EnvirontmentPort))
+	err = http.ListenAndServe(":"+os.Getenv(constants.EnvirontmentPort), nil)
 	if err != nil {
 		return
 	}
